@@ -1,3 +1,8 @@
+[
+    fonte de estudo: youtube canal Otávio Miranda
+        https://www.youtube.com/watch?v=SnTBOhYFr28
+]
+
 git init
 git confit --global user.name "<seu usuario>" 
 git config --global user.email "<seu email>"
@@ -36,6 +41,7 @@ git remote add origin git@github.com:danielcatto/git-notas-exemplos.git
     adiciona o git oa repositório remoto com ssh
 
 git push origin master
+git push origin master -u # para gravar origin e usar somente git push
     agora você pode usar o push sem senha 
 
 arquivo .gitignore
@@ -43,4 +49,4 @@ arquivo .gitignore
 git reset HEAD <nome_arquivo_para_remover_da_estera_>
     git rest HEAD .env
 
-        
+
