@@ -1,0 +1,16 @@
+git init
+git confit --global user.name "<seu usuario>" 
+git config --global user.email "<seu email>"
+
+criar arquivos e realizar os procedimentos normais como:
+    git add <nome arquivo com extensao>
+        para arquisos untracked
+        
+    git commit -m "descrição das alteraçoes dos arquivos"
+        para salvar os aleterações dos arquivos
+
+git status
+    verificar estado de todos os arquivos
+
+git log | git log --online
+    para ver os commit passados 
