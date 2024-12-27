@@ -50,3 +50,14 @@ git reset HEAD <nome_arquivo_para_remover_da_estera_>
     git rest HEAD .env
 
 
+#baixar do github e atualizar o git local para atualizar codigo feito por outros desenvolvedores 
+git pull origin master
+
+
+EXTENSÃO DO VSCODE
+    git graph
+    
+git reset HEAD^ 
+    volta no commit anterior
+git reset HEAD~3  #
+    Volta 3 commits
