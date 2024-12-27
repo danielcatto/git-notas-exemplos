@@ -14,3 +14,33 @@ git status
 
 git log | git log --online
     para ver os commit passados 
+    este comando mostra os commit com seus codigos hash e descrição
+
+git show 
+    use o hash apos o git show
+    mostra as modificações dos arquivos como linha modifica ou adicionada ou removida
+    nome do author
+
+
+# para adicionar git com SSH você precisa criar uma chave rsa publica no seu diretorio de home na pasta .ssh como o comando:
+    ssh-keygen -f ~/.ssh/<nome_qualquer_rsa> -t rsa -b 4096
+        NA OPÇÃO PASSWORD pode deixar em branco -  fica menos seguro
+    buscar pelo arquivo <nome_qualquer_rsa>.pub e copiar o conteudo do arquivos
+    no github ir na opção settings | ssh e GPG Keys
+    cria uma ssh key, no campo KEY cole a chave, não é necessário criar TITLE 
+  
+git remote rm origin 
+    remove o repositorio do github
+
+git remote add origin git@github.com:danielcatto/git-notas-exemplos.git
+    adiciona o git oa repositório remoto com ssh
+
+git push origin master
+    agora você pode usar o push sem senha 
+
+arquivo .gitignore
+
+git reset HEAD <nome_arquivo_para_remover_da_estera_>
+    git rest HEAD .env
+
+        
